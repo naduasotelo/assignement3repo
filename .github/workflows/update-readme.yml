@@ -6,7 +6,8 @@ schedule:
 workflow_dispatch: # Allows manual triggering
 jobs:
 update-activity:
-runs-on: ubuntu-latest steps:
+runs-on: ubuntu-latest 
+steps:
 - uses: actions/checkout@v4
 - name: Update GitHub Activity
 uses: TheDanniCraft/activity-10g@v1 with:
