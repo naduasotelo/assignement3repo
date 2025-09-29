@@ -1,0 +1,15 @@
+name: Validate README Markers
+on:
+  pull_request:
+    paths: [ "README.md" ]
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check markers
+        run: |
+          grep -q "<!--START_SECTION:activity-->" README.md || { echo "START marker missing"; exit 1; }
+          grep -q "<!--END_SECTION:activity-->" README.md || { echo "END marker missing"; exit 1; }
