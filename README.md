@@ -1,6 +1,6 @@
 # assignement3repo
 <!--START_SECTION:activity-->
-1. 🎉 Created a new branch [`main`](https://github.com/naduasotelo/assignment6/tree/main) in [naduasotelo/assignment6](https://github.com/naduasotelo/assignment6)
+1. 🎉 Created a new branch `main` in a private repo
 2. 📝 Committed to [naduasotelo/A4](https://github.com/naduasotelo/A4/commit/d0471434382a9691a5cc6dc3596d7d6a7b93309e)
 3. 📝 Committed to [naduasotelo/A4](https://github.com/naduasotelo/A4/commit/16a23a449ff2223bde0ae4b1b01adf7e0d045a42)
 4. 📝 Committed to [naduasotelo/A4](https://github.com/naduasotelo/A4/commit/c9d7244b206bcf582e7ed2676c83ba3bddab11fd)
